@@ -37,3 +37,17 @@ h1.author-name {
 h5 {
   font-size: 1.5rem;
 }
+
+/* Target Tailwind-rendered H1 used for author/name headings
+   Matches H1s containing classes like `text-3xl sm:text-4xl lg:text-5xl font-black leading-tight` */
+h1[class*="text-3xl"][class*="font-black"][class*="leading-tight"] {
+  font-size: clamp(1.6rem, 4vw, 2.2rem) !important;
+  font-weight: 800 !important;
+  line-height: 1.05 !important;
+  margin: 15 !important;
+}
+
+/* More permissive fallback: any H1 containing text-3xl */
+h1[class*="text-3xl"] {
+  font-size: clamp(1.6rem, 4vw, 2.4rem) !important;
+}
