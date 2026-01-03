@@ -2,7 +2,7 @@ schema: "hugoblox/author/v1"
 slug: "me"
 is_owner: true
 name:
-  display: "Françoa Taffarel"
+  display: "MSc. Françoa Taffarel"
   given: "Françoa"
   family: "Taffarel"
   alternate: ""
