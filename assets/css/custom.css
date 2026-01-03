@@ -1,0 +1,39 @@
+/* Ajustes responsivos e específicos para o nome/autor */
+.profile-title,
+h1.profile-title,
+.page-title,
+.author-name,
+.site-author,
+.identity-name {
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  font-weight: 700;
+  line-height: 1.05;
+  margin: 0;
+}
+
+/* Caso o grau/título esteja em <span> dentro do nome */
+.profile-title span,
+.author-name span,
+.identity-name span {
+  font-size: 0.7em;
+  font-weight: 500;
+  opacity: 0.9;
+  margin-left: 0.35rem;
+}
+
+/* Específico para a home (se o body tiver .home) */
+.home .profile-title,
+.home .author-name {
+  font-size: clamp(1.8rem, 5vw, 2.6rem);
+}
+
+/* Small utility in case title appears in markdown H1 inline */
+h1.author-name {
+  margin-bottom: 0.25rem;
+}
+
+
+/* If the author name is in an H5 tag as a partial */
+h5 {
+  font-size: 1.5rem;
+}

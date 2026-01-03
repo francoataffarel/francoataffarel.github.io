@@ -40,3 +40,7 @@ hugoblox:
       enable: true
   search:
     enable: true
+
+# custom CSS for HugoBlox
+custom_css:
+  - "css/custom.css"
