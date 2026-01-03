@@ -120,6 +120,3 @@ awards:
     date: "2024-12-01"
     summary: Recognition for contributions to cyber operations, research, and training.
     icon: hero/trophy
-schema: hugoblox/author/v1
-slug: me
-is_owner: true
