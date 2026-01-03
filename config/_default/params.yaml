@@ -16,9 +16,9 @@ hugoblox:
     font: sans
     size: md
   layout:
-    radius: full
-    spacing: spacious
-    avatar_shape: square
+    radius: md
+    spacing: compact
+    avatar_shape: circle
   header:
     enable: true
     style: navbar
