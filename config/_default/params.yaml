@@ -10,13 +10,15 @@ hugoblox:
       primary: blue
       secondary: ""
       neutral: ""
+    colors_dark:
+      primary: ""
   typography:
     font: sans
     size: md
   layout:
-    radius: md
-    spacing: comfortable
-    avatar_shape: circle
+    radius: full
+    spacing: spacious
+    avatar_shape: square
   header:
     enable: true
     style: navbar
