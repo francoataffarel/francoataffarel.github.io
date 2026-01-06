@@ -12,51 +12,87 @@ postnominals:
   - "MSc"
 status:
   icon: "⚓️"
-role: "Offensive Security Engineer · Cyber Warfare Specialist"
-bio: "Offensive Security Engineer and Cyber Warfare Specialist with operational, academic, and research experience in offensive cyber operations, vulnerability research, and large-scale security analysis. Master in Cyber Warfare, with a strong focus on IoT, embedded systems, and cyber training environments for military and critical infrastructure contexts. "
+role: "M.Sc. | Offensive Security Engineer | Red Team | OSCE³"
+location: "Rio de Janeiro, Brazil"
+
+bio: >
+  I’m an Offensive Security Engineer driven by a deep curiosity about how systems break — and how they’re defended. With over 5 years of experience in Red Team operations, penetration testing, adversary emulation, and vulnerability research across cloud, hybrid, and on-premise environments, applying real-world TTPs in fast-moving contexts.
+
+
+  I hold the OSCE³ (OSWE, OSEP, OSED) certification, with a hands-on focus on exploitation, secure code review, and custom tooling. My master’s research explored large-scale IoT and embedded systems security, leading to multiple 0-days and CVEs and shaping how I approach practical security.
+
+  When I’m not breaking or building systems, I’m usually studying new attack surfaces, refining techniques, and thinking about how to make security teams harder to surprise.
+
 affiliations:
-  - name: "Marinha do Brasil"
+  - name: "Brazilian Navy"
     url: "https://www.marinha.mil.br/"
 links:
   - icon: "at-symbol"
-    url: "mailto:francoataffarel@proton.me"
+    url: "mailto:francoa.taffarel@gmail.com"
     label: "E-mail"
   - icon: "brands/github"
     url: "https://github.com/francoataffarel"
   - icon: "brands/linkedin"
     url: "https://www.linkedin.com/in/francoataffarel/"
+  - icon: "custom/hackthebox"
+    url: "https://app.hackthebox.com/users/327660"
+    label: "Hack The Box"
+  - icon: "custom/hackerone"
+    url: "https://hackerone.com/exord26"
+    label: "HackerOne"
   - icon: "academicons/google-scholar"
-    url: "https://scholar.google.com/"
+    url: "https://scholar.google.com/citations?hl=pt-BR&user=uh7wVDMAAAAJ"
   - icon: "academicons/orcid"
-    url: "https://orcid.org/"
+    url: "https://orcid.org/0000-0001-8154-4912"
+  - icon: "academicons/lattes"
+    url: "https://lattes.cnpq.br/4962492402872467"
+    label: "Lattes CV"
+
 interests:
-  - "Offensive Security"
-  - "Cyber Warfare Operations"
-  - "Vulnerability Research"
-  - "IoT & Embedded Systems"
-  - "Red Team Operations"
-  - "Cyber Training & Simulation"
+  - Offensive Security & Red Teaming
+  - Cyber Warfare & Adversary Emulation
+  - Vulnerability Research
+  - IoT & Embedded Systems Security
+  - Cyber Training, Simulation & Exercises
 education:
-  - degree: "MSc Cyber Warfare"
+  - degree: "MSc in Computer Science (Cyber Warfare)"
     institution: "Instituto Tecnológico de Aeronáutica (ITA)"
     start: "2022-03-01"
     end: "2024-07-01"
-    summary: "Dissertation focused on large-scale vulnerability analysis in IoT and
-
-      Wi-Fi routers, combining static and dynamic analysis, firmware emulation,
-
-      and automated tooling.\n"
+    summary: >
+      Master’s research focused on large-scale vulnerability analysis in IoT and Wi-Fi routers,
+      combining static and dynamic analysis, firmware emulation, and automated tooling.
     button:
       text: "Download dissertation"
-      url: "/uploads/resume.pdf"
+      url: "https://www.gov.br/defesa/pt-br/assuntos/ensino-e-pesquisa/copy_of_defesa-e-academia/concurso-de-dissertacoes-e-teses-sobre-defesa-nacional-cdtdn/arquivos/2025/3o-lugar-mestrado-francoa_taffarel_rosario_correa.pdf"
       icon: "hero/arrow-down-tray"
-  - degree: "MBA Information Security"
+
+  - degree: "MBA in Information Security"
     institution: "Universidade Estácio de Sá"
     start: "2019-01-01"
     end: "2020-12-01"
+    summary: >
+      Postgraduate program focused on information security management, risk analysis,
+      and applied cybersecurity practices in Nuclear Sector.
+
+  - degree: "BS in Computer Science"
+    institution: "Universidade Federal do Rio de Janeiro"
+    start: "2012-01-01"
+    end: "2018-12-31"
+    summary: >
+      Bachelor’s degree with emphasis on software engineering, algorithms,
+      operating systems, and computer networks.
+
+  - degree: "BSc in Naval Science (Mechanics)"
+    institution: "Escola Naval"
+    start: "2011-01-01"
+    end: "2014-12-31"
+    summary: >
+      Undergraduate naval officer formation with a focus on mechanics,
+      leadership, and operational training.  
 experience:
-  - role: "Cyber Warfare Specialist / Offensive Security Engineer"
-    org: "Marinha do Brasil"
+  - role: "Offensive Security Engineer / Cyber Warfare Specialist"
+    org: "Brazilian Navy"
     start: "2020-05-28"
     summary: "Acting in cyber warfare units with focus on offensive cyber operations,
 
@@ -65,10 +101,6 @@ experience:
       cyber training environments. Experience in joint operations, academic
 
       instruction, and applied research.\n"
-    button:
-      text: "View projects"
-      url: "/projects/"
-      icon: "hero/arrow-down-tray"
 skills:
   - name: "Offensive & Technical Skills"
     items:
@@ -77,19 +109,19 @@ skills:
       - label: "Binary Exploitation"
         level: 4
       - label: "IoT / Firmware Analysis"
-        level: 5
+        level: 4
       - label: "Red Team Operations"
         level: 5
       - label: "Python"
-        level: 5
+        level: 4
   - name: "Research & Teaching"
     items:
       - label: "Vulnerability Research"
         level: 5
       - label: "Academic Writing"
-        level: 4
-      - label: "Cybersecurity Instruction"
         level: 5
+      - label: "Cybersecurity Instruction"
+        level: 4
 languages:
   - name: "Portuguese"
     level: 5
@@ -98,9 +130,125 @@ languages:
     level: 4
     label: "Advanced"
 awards:
-  - title: "xxxxxx"
-    awarder: "xxxx"
-    date: "2024-12-01"
-    summary: "Recognition for contributions to cyber operations, research, and training."
+  - title: "1st Place — SBSEG CTF 2022"
+    awarder: "Brazilian Symposium on Information and Computational Systems Security (SBSEG)"
+    date: "2022-09-01"
+    summary: >
+      First place at the SBSEG 2022 Capture The Flag (CTF) competition, demonstrating advanced skills
+      in exploitation, reverse engineering, and applied offensive security techniques.
     icon: "hero/trophy"
+
+  - title: "1st Place — p0t30s3 CTF (Extreme Hacking) 2023"
+    awarder: "Extreme Hacking"
+    date: "2023-09-03"
+    summary: >
+      First place at the p0t30s3 CTF 2023, focused on real-world offensive security challenges,
+      including vulnerability exploitation and adversarial problem solving.
+    icon: "hero/trophy"
+
+  - title: "CVE-2022-46552"
+    awarder: "Published CVE"
+    date: "2023-01-01"
+    summary: >
+      A vulnerability in certain Wi-Fi router firmware versions allows improper handling of
+      network requests, which may lead to information disclosure or unintended behavior
+      under specific conditions.
+    url: "https://nvd.nist.gov/vuln/detail/CVE-2022-46552"
+    icon: "hero/shield-check"
+
+  - title: "Best Short Paper Award — SBSEG 2023"
+    awarder: "SBSEG 2023"
+    date: "2023-09-01"
+    summary: >
+      Best short paper award at SBSEG 2023, associated with Instituto Tecnológico de Aeronáutica (ITA).
+    icon: "hero/trophy"
+
+  - title: "CVE-2023-6580"
+    awarder: "Published CVE"
+    date: "2023-12-01"
+    summary: >
+      An information disclosure vulnerability in specific software components allows attackers
+      to access sensitive data due to improper access control mechanisms.
+    url: "https://nvd.nist.gov/vuln/detail/CVE-2023-6580"
+    icon: "hero/shield-check"
+
+  - title: "CVE-2023-7002"
+    awarder: "Wordfence / Published CVE"
+    date: "2023-12-01"
+    summary: >
+      The Backup Migration plugin for WordPress (versions <= 1.3.9) contains an authenticated
+      OS command injection vulnerability via the 'url' parameter, allowing administrators or
+      higher-privileged users to execute arbitrary system commands on the underlying server.
+    url: "https://nvd.nist.gov/vuln/detail/CVE-2023-7002"
+    icon: "hero/shield-check"
+
+  - title: "CVE-2024-0769"
+    awarder: "Published CVE"
+    date: "2024-01-01"
+    summary: >
+      A vulnerability in affected software versions allows improper input handling,
+      which may result in unintended information exposure or system behavior.
+    url: "https://nvd.nist.gov/vuln/detail/CVE-2024-0769"
+    icon: "hero/shield-check"
+
+  - title: "Outstanding Artifact Reviewer — CTA (SBSeg) 2024"
+    awarder: "Committee of Technical Artifacts (CTA), SBSeg"
+    date: "2024-12-01"
+    summary: >
+      Recognized as one of the outstanding artifact reviewers of the CTA at SBSeg 2024,
+      for high-quality technical evaluations, reproducibility validation,
+      and constructive academic feedback.
+    icon: "hero/star"
+
+  - title: "CVE-2025-2252"
+    awarder: "Published CVE"
+    date: "2025-03-01"
+    summary: >
+      An unauthenticated information disclosure vulnerability in the Easy Digital Downloads –
+      eCommerce Payments and Subscriptions plugin (versions <= 3.3.6.1) allows attackers to
+      retrieve private download post titles via the edd_ajax_get_download_title() AJAX action.
+    url: "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-2252"
+    icon: "hero/shield-check"
+
+  - title: "Outstanding Artifact Reviewer — CTA (SBSeg) 2025"
+    awarder: "Committee of Technical Artifacts (CTA), SBSeg"
+    date: "2025-09-02"
+    summary: >
+      Recognized again as one of the outstanding artifact reviewers of the CTA at SBSeg 2025,
+      reinforcing consistent contributions to artifact evaluation, sustainability,
+      and reproducible security research.
+    icon: "hero/star"
+
+  - title: "3rd Place — MD/CAPES National Defense Theses & Dissertations Award (2025)"
+    awarder: "Brazilian Ministry of Defense (MD) / CAPES"
+    date: "2025-12-05"
+    summary: >
+      Awarded 3rd place at the MD/CAPES National Competition on Defense Theses and Dissertations (2025).
+      The research focused on advancing large-scale vulnerability analysis in Wi-Fi routers,
+      contributing directly to national cyber defense and offensive security capabilities.
+    icon: "hero/trophy"
+
 weight: null
+
+certifications:
+  - name: "OffSec Certified Expert 3 (OSCE3)"
+    issuer: "OffSec"
+    date: "2025-05"
+    id: "145320121"
+  - name: "OffSec Web Expert (OSWE)"
+    issuer: "OffSec"
+    date: "2025-05"
+    id: "145319521"
+  - name: "OffSec Exploit Developer (OSED)"
+    issuer: "OffSec"
+    date: "2024-10"
+    id: "zfoe204g"
+  - name: "Offensive Security Experienced Penetration Tester (OSEP)"
+    issuer: "Offensive Security"
+    date: "2023-01"
+    id: "67076118"
+  - name: "Offensive Security Certified Professional (OSCP)"
+    issuer: "Offensive Security"
+    date: "2021-11"
+    id: "OS-101-47049"
+

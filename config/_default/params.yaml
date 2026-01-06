@@ -5,13 +5,17 @@ hugoblox:
     type: person
   theme:
     mode: system
-    pack: contrast
+    pack: minimal
     colors:
       primary: blue
       secondary: ""
       neutral: ""
     colors_dark:
       primary: ""
+    colors_light:
+      primary: ""
+      secondary: ""
+      neutral: ""
   typography:
     font: sans
     size: md
@@ -26,6 +30,10 @@ hugoblox:
     align: center
     search: true
     theme_toggle: true
+    theme_picker: true
+    language_switcher: true
+    cta:
+      enable: false
   footer:
     style: minimal
     language_switcher: true
@@ -40,6 +48,10 @@ hugoblox:
       enable: true
   search:
     enable: true
+  security:
+    frame_options: deny
+  pro:
+    hide_attribution: true
 
 # custom CSS for HugoBlox
 custom_css:
